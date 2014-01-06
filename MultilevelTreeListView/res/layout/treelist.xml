@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_width="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="fill_parent"
+     android:orientation="vertical"
+     android:background="#c5d0d2">
+ 
+      
+         
+ 		  
+ 		
+      <LinearLayout android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_weight="1"
+          android:background="#c5d0d2"
+          android:orientation="vertical">
+          <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+                  <ListView  
+   	 		android:layout_width="wrap_content" 
+    		
+    		android:layout_height="fill_parent" 
+    
+    		android:fadingEdge="none" 
+   			 android:id="@+id/currentpending_list"
+   			 android:layout_marginLeft="7dp"
+    		android:layout_marginTop="7dp"
+   			 android:layout_marginRight="7dp"
+    		android:scrollingCache="false"
+    
+    	>
+	        
+	    </ListView>
+
+
+	    </RelativeLayout>
+      </LinearLayout>
+      
+ </LinearLayout>
+    
